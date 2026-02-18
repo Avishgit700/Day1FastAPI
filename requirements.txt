@@ -1,0 +1,23 @@
+# FastAPI Posts API
+
+A simple FastAPI application that serves as a basic introduction to building REST APIs with FastAPI. This project demonstrates core concepts like route decorators, HTTP GET endpoints, and running a development server.
+
+## Features
+
+- **POST Endpoint** (`GET /posts`): Returns a posts data message
+- **Root Endpoint** (`GET /`): Returns a greeting message
+- **Hot Reload**: Development server supports auto-reload on code changes
+
+## Prerequisites
+
+- Python 3.7 or higher
+- pip (Python package manager)
+- FastAPI
+- Uvicorn (ASGI server)
+-asyncio (for asynchronous programming)
+
+## Installation
+
+1. **Clone or navigate to the project directory:**
+   ```powershell
+   cd "C:\Users\avish\OneDrive\Documents\4-5 roadmap\Day1FastAPI"
