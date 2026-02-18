@@ -4,7 +4,7 @@ from fastapi import FastAPI  #PYTHON LIBRARIES NEED TO INSTELL FASTAPI AND UVICO
 app = FastAPI() #it is the instance of the FastAPI
 @app.get("/posts") #@app.get("/")  #decorator which provides magic to the function and allow the user to access the specific path
 def display_user(): #function which will be called user access path #imp note inthe development env we pass uvicorn main:app --reload
-      return{"data": "GOOD NIGHTY NIGHTY!!"}
+      return{"data": "GOOD  NIGHTY Tom going to be a good day!!"}
      # python dictonary#fast#moving forward in the development environment
 
 @app.get("/")
